@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'IndieFlower';
+    src: url('fonts/IndieFlower.ttf')}
+
+header	
+		{	
+		border-radius: 20px 20px 20px 20px;
+		margin-top:0;
+		text-align: center;
+		color: red;
+		font-weight: bold;
+		font-size: 40px;
+		font-family:"IndieFlower";
+		text-decoration: blink;
+		background-color: rgba(238, 238, 0, 0.7);}
+
+
+
+
+nav
+		{
+		border-radius: 20px 20px 20px 20px;
+		margin:5px 5px;
+		color: yellow;
+		text-align: center;
+		float: left;
+		width : 15%;
+		background-color: rgba(238, 0, 0, 0.7);
+		 }
+
+
+.nav	{
+		border-radius: 0px 0px 20px 20px;
+		text-align: left;
+		color: yellow;
+		float: left;
+		width: 100%;
+		background-color: rgba(238, 238, 0, 0.7);}
+
+
+.navin {color: yellow;}
+.navin:hover{
+   text-decoration: underline;
+   color: red;
+}
+.navin:focus{color: red;
+	font-weight: bold;}
+
+
+.sectionaside{margin-left: 5px;
+			 width:14%;
+			 padding: 10px;
+			background-color: red;
+			border-radius: 20px 20px 20px 20px;
+			color:yellow;}
+
+section {margin-left: 20%;
+		margin-right: 5%;
+		}
+
+	
+article
+		{
+		color: red;	
+		text-align: center;
+		font-size: 45px;
+		font-family:"IndieFlower";
+		border-radius: 100px 100px 100px 100px;
+		background-color: rgba(238, 238, 0, 0.7);}
+		
+
+
+
+
+						
+.animationtop {
+	position:absolute;
+	top:0;
+	left:600px;
+	}
+
+.animationmiddlecentered {
+	position:absolute;
+	top:500px;
+	left:570px;
+	}
+
+.animationhighcentered {
+	position:absolute;
+	top:20%;
+	left:50%;
+	}
+
+.animationringcentered {
+	position:absolute;
+	top:600px;
+	left:600px;
+	}
+
+
+.animationleft {
+	position:absolute;
+	top:600px;
+	left:500px;
+	text-align:center;
+	}
+
+.animationright {
+	position:absolute;
+	top:650px;
+	left:800px;
+	text-align:center;
+	}
+
+.animationhighcentered{
+	position:absolute;
+	top:500px;
+	left:700px;
+}
+
+.hat {
+	position:absolute;
+	bottom:0;
+	left:50px;
+}
+
+aside{
+	text-align:center;
+	position:fixed;
+	padding-left:40%;
+	bottom:50px;}
+
+.map{position:relative;
+	float:top;
+	padding:20px 0 0 0;
+	}
+	
+
+.addressbox{position:relative;
+			float:top;
+			padding-bottom: 0%;
+			}
+
+.circusaddress	{
+	position:relative;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	float:top;
+	color:red;
+	margin-bottom:5%;
+	padding: 5px 10% 5px 10%;
+	margin: 5px 25% 5px 25%; 
+	}
+
+
+.clown {position:fixed;
+		bottom:50px; left:1000px;}
+
+footer	{
+		color: red;
+		font-family:"IndieFlower";
+		font-size:20px;
+		font-weight:bold;
+		width:99%;
+		text-align:center;
+		position:fixed;
+		bottom:0;
+		height:40px;
+		padding-top: 8px;
+		background-color: rgba(238, 238, 0, 0.7);
+		border-radius: 20px 20px 20px 20px;
+				}
+
+
+body  	{
+    	background: url("img/wild_ring.jpg");
+    	background-size: fixed;
+    	      	}
+
+table{position: relative; margin: 0 20% 0 20%;}
+
+		.content{border: 3px dotted red; text-align:center;padding-left:15px; padding-right:15px;}
+
+.sectionaside{font-family:"Verdana";
+	float:left;
+	text-align:left;
+	border-radius: 20px 20px 20px 20px;
+	border: 4px dotted yellow;
+	background-color: red;
+	margin-bottom:100px;
+}
+
+.contact {color:red;
+			font-family:"IndieFlower";
+			color:yellow;
+			font-size:25px;
+			text-align:center;
+			text-decoration:underline;}
+
+.button {background-color:yellow;
+		color: red;
+		font-weight: bold;}
+
