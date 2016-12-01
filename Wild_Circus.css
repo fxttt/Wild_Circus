@@ -136,23 +136,16 @@ aside{
 		bottom:50px;
 		}
 
-.map{
-		position:relative;
+.mapbox{	position:relative;
 		float:top;
 		padding:20px 0 0 0;
 		}
 
-.map:hover{
+.mapbox:hover{
 		transform:scale(2.5) translateY(20px) translateX(-40px);
 		margin: auto;
 		background-color: rgba(238, 238, 0, 0.9);
 		z-index:1;
-		}
-
-.addressbox{
-		position:relative;
-		float:top;
-		padding-bottom: 0%;
 		}
 
 .circusaddress{
@@ -168,6 +161,12 @@ aside{
 		}
 
 
+.addresscircussection:hover{
+		transform: scale(2) translateY(-30px);
+		background-color: rgba(238, 238, 0, 0.9);
+		margin: auto;
+		z-index:1;
+}
 
 footer{
 		color: red;
