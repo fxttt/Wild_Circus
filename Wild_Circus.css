@@ -131,22 +131,23 @@ article{
 
 aside{
 		text-align:center;
-		position:fixed;
+		position:relative;
 		padding-left:40%;
 		bottom:50px;
 		}
 
-.mapbox{	position:relative;
-		float:top;
-		padding:20px 0 0 0;
+.mapbox{display:flex;
+		justify-content: center;
+		padding:5px;
+		z-index: 1;
 		}
 
 .mapbox:hover{
 		transform:scale(2.5) translateY(20px) translateX(-40px);
 		margin: auto;
 		background-color: rgba(238, 238, 0, 0.9);
-		z-index:1;
-		}
+		z-index: 2}
+
 
 .circusaddress{
 		position:relative;
@@ -160,14 +161,11 @@ aside{
 		margin: 5px 25% 5px 25%; 
 		}
 
-
 .addresscircussection:hover{
 		transform: scale(2) translateY(-30px);
 		background-color: rgba(238, 238, 0, 0.9);
 		margin: auto;
-		z-index:1;
-}
-
+		}
 footer{
 		color: red;
 		font-family:"IndieFlower";
